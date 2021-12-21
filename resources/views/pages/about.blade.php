@@ -11,10 +11,12 @@
 
 <p>Built with me and my brain.</p>
 
-<p><a href="/">Revenir à la page d'acceuil</a></p>
+<p>
+    <a href="/">Revenir à la page d'acceuil</a>
+</p>
 
 <footer>
-    <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/about-us">About Us</a> </p>
+    <p>&copy; Copyright {{ date('Y') }} &middot;</p>
 </footer>
 </body>
 </html>
