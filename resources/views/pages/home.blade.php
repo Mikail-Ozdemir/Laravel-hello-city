@@ -4,6 +4,7 @@
 
 
 @section('content')
+    <img src="/images/dreapeaufrancais.png" alt="French Flag">
 
     <h1>Hello from Strasbourg!</h1>
 

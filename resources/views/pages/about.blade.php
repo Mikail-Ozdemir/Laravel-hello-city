@@ -4,6 +4,8 @@
 
 
 @section('content')
+    <img src="/images/drapeaualsacienpng.png" alt="alsacien Flag">
+
     <p>Built with me and my brain.</p>
 
     <p><a href="{{ route('home') }}">Revenir à la page d'acceuil</a></p>
