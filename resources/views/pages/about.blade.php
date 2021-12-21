@@ -4,7 +4,7 @@
 
 
 @section('content')
-    <img src="/images/drapeaualsacienpng.png" alt="alsacien Flag">
+    <img src="{{ asset('/images/drapeaualsacienpng.png') }}" alt="alsacien Flag">
 
     <p>Built with me and my brain.</p>
 
