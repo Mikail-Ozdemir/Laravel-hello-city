@@ -4,9 +4,15 @@
 
 
 @section('content')
-    <img src="{{ asset('/images/drapeaualsacienpng.png') }}" alt="alsacien Flag">
+    <img src="{{ asset('/images/drapeaualsacienpng.png') }}" class="md-12 rounded shadow-md h-32" alt="alsacien Flag">
 
-    <p>Built with me and my brain.</p>
+    <h2 class=" mb-5 text-gray-700">
+        Built with me and my <span class="text-pink-500"> brain </span>.
+    </h2>
 
-    <p><a href="{{ route('home') }}">Revenir à la page d'acceuil</a></p>
+    <p>
+        <a href="{{ route('home') }}" class="text-indigo-500 hover:text-indigo-800 underline">
+            Revenir à la page d'acceuil
+        </a>
+    </p>
 @endsection
